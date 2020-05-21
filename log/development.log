@@ -1,0 +1,88 @@
+Started GET "/" for ::1 at 2020-05-21 14:33:40 +0200
+  [1m[35m (6.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in T:/Universiteit/2020/Ruby on rails/project/WebGL/public/packs
+[Webpacker] Hash: 10a84477aadad1c1596d
+Version: webpack 4.43.0
+Time: 11314ms
+Built at: 05/21/2020 2:33:56 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-8012a6480476aca9b77a.js   1.23 MiB        index  [emitted] [immutable]  index
+      js/index-8012a6480476aca9b77a.js.map   1.38 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+Entrypoint index = js/index-8012a6480476aca9b77a.js js/index-8012a6480476aca9b77a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 691 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 4 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (Duration: 15712.2ms | Allocations: 4644)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16148ms (Views: 16129.2ms | ActiveRecord: 0.0ms | Allocations: 29024)
+
+
+Started GET "/" for ::1 at 2020-05-21 14:35:21 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in T:/Universiteit/2020/Ruby on rails/project/WebGL/public/packs
+[Webpacker] Hash: 31cf5c6f1d1758e39275
+Version: webpack 4.43.0
+Time: 2810ms
+Built at: 05/21/2020 2:35:27 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-d88bac8eb9083106d665.js   1.23 MiB        index  [emitted] [immutable]  index
+      js/index-d88bac8eb9083106d665.js.map   1.38 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+Entrypoint index = js/index-d88bac8eb9083106d665.js js/index-d88bac8eb9083106d665.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 1.01 KiB {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 4 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (Duration: 6864.3ms | Allocations: 4484)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6910ms (Views: 6908.5ms | ActiveRecord: 0.0ms | Allocations: 9266)
+
+
+Started GET "/" for ::1 at 2020-05-21 14:35:50 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in T:/Universiteit/2020/Ruby on rails/project/WebGL/public/packs
+[Webpacker] Hash: 10a84477aadad1c1596d
+Version: webpack 4.43.0
+Time: 2730ms
+Built at: 05/21/2020 2:35:57 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-8012a6480476aca9b77a.js   1.23 MiB        index  [emitted] [immutable]  index
+      js/index-8012a6480476aca9b77a.js.map   1.38 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+Entrypoint index = js/index-8012a6480476aca9b77a.js js/index-8012a6480476aca9b77a.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 691 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 4 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (Duration: 6918.0ms | Allocations: 4496)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6965ms (Views: 6964.5ms | ActiveRecord: 0.0ms | Allocations: 9311)
+
+
