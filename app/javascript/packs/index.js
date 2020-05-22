@@ -39,7 +39,7 @@ controls.maxPolarAngle = Math.PI / 2;
 
 var loader = new GLTFLoader();
 
-loader.load( 'https://stefanswebgl.herokuapp.com/scene.gltf', function ( gltf ) {
+loader.load( 'https://stefanswebgl.herokuapp.com/scifigirl/scene.gltf', function ( gltf ) {
 
 	scene.add( gltf.scene );
 
