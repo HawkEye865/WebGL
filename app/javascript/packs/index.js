@@ -39,7 +39,7 @@ controls.maxPolarAngle = Math.PI / 2;
 
 var loader = new GLTFLoader();
 
-loader.load( 'http://127.0.0.1:3000/scene.gltf', function ( gltf ) {
+loader.load( 'https://stefanswebgl.herokuapp.com/scene.gltf', function ( gltf ) {
 
 	scene.add( gltf.scene );
 
