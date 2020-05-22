@@ -40,7 +40,8 @@ controls.maxPolarAngle = Math.PI / 2;
 var loader = new GLTFLoader();
 
 loader.load( 'https://stefanswebgl.herokuapp.com/scifigirl/scene.gltf', function ( gltf ) {
-
+	gltf.scene.position.setY(1.5);
+	gltf.scene.castShadow = true;
 	scene.add( gltf.scene );
 
 }, undefined, function ( error ) {
@@ -49,24 +50,24 @@ loader.load( 'https://stefanswebgl.herokuapp.com/scifigirl/scene.gltf', function
 
 } );
 
-var geometry = new THREE.SphereBufferGeometry(2, 32, 32);
-var material = new THREE.MeshPhongMaterial({ color: 0xff0000 });
-var sphere = new THREE.Mesh(geometry, material);
+// var geometry = new THREE.SphereBufferGeometry(2, 32, 32);
+// var material = new THREE.MeshPhongMaterial({ color: 0xff0000 });
+// var sphere = new THREE.Mesh(geometry, material);
 
-sphere.castShadow = true;
-sphere.receiveShadow = true;
-sphere.position.setY(5);
-sphere.position.setZ(7);
-scene.add(sphere);
+// sphere.castShadow = true;
+// sphere.receiveShadow = true;
+// sphere.position.setY(5);
+// sphere.position.setZ(7);
+// scene.add(sphere);
 
-var geometry = new THREE.BoxBufferGeometry(5, 5, 5);
-var material = new THREE.MeshPhongMaterial({ color: 0x00ff00 });
-var cube = new THREE.Mesh(geometry, material);
-cube.castShadow = true;
-cube.receiveShadow = true;
-cube.position.setY(2);
-// cube.position.setZ(5);
-scene.add(cube);
+// var geometry = new THREE.BoxBufferGeometry(5, 5, 5);
+// var material = new THREE.MeshPhongMaterial({ color: 0x00ff00 });
+// var cube = new THREE.Mesh(geometry, material);
+// cube.castShadow = true;
+// cube.receiveShadow = true;
+// cube.position.setY(2);
+// // cube.position.setZ(5);
+// scene.add(cube);
 
 camera.lookAt(cube);
 
