@@ -69,7 +69,7 @@ loader.load( 'https://stefanswebgl.herokuapp.com/scifigirl/scene.gltf', function
 // // cube.position.setZ(5);
 // scene.add(cube);
 
-camera.lookAt(cube);
+// camera.lookAt(cube);
 
 var geometry = new THREE.BoxBufferGeometry(1000, 0, 1000);
 // var material = new THREE.MeshPhongMaterial({ color: 0x8B4513});
